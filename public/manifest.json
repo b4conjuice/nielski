@@ -1,0 +1,8 @@
+{
+  "name": "nielski",
+  "short_name": "nielski",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "scope": "/"
+}
