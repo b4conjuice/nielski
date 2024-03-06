@@ -15,7 +15,7 @@ export default function Home(
       <Main className='flex flex-col p-4'>
         <div className='flex flex-grow flex-col items-center justify-center space-y-4'>
           <article
-            className='proselg:prose-xl prose bg-cb-blue text-cb-white prose-headings:text-cb-white prose-a:text-cb-pink hover:prose-a:text-cb-pink/75 w-full rounded p-4'
+            className='prose w-full rounded bg-cb-blue p-4 text-cb-white lg:prose-xl prose-headings:text-cb-white prose-a:text-cb-pink hover:prose-a:text-cb-pink/75'
             dangerouslySetInnerHTML={{ __html: props.markdown }}
           />
         </div>
